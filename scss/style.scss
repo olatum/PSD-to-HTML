@@ -1,1 +1,90 @@
- 
+body {
+  font: 300 16px /1.5em 'Lato', sans-serif;
+  //color:#ffffff;
+}
+
+
+/*links*/
+a {
+  //color:#4d565d; /*active*/
+  color: #a29061;
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+/*images*/
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*grid*/
+.container{
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/*Page Header*/
+.page-header{
+  padding:55px 0;
+}
+
+.page-header > .container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand .brand img{
+  display: block;
+}
+
+/*Menu*/
+.menu-items{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+.menu-items li{
+  margin: 0 4px;
+  display: inline-block;
+  list-style: none;
+
+}
+
+.menu-items li a{
+  padding: 16px 25px;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0.05px;
+
+}
+
+.menu-items .active{
+  color: #4d565d;
+}
+
+//
+///*menu footer*/
+///* Style for "menu" */
+//width: 450px;
+//height: 69px;
+//
+///* Style for "Rectangle" */
+//width: 1px;
+//height: 65px;
+//background-color: #57666f;
+//
+///* Style for "Rectangle" */
+//width: 417px;
+//height: 2px;
+//background-color: #af9a63;
