@@ -49,7 +49,30 @@ img{
   padding: 0;
   margin: 0;
   list-style: none;
+  display: flex;
+  align-items: center;
+}
 
+.menu-items li.menu::before{
+  position:absolute;
+  content:'';
+  height:4.3rem;
+  border-left: 1px solid;
+  margin-top:-4rem;
+  margin-left:.6rem;
+  color: #2d3439;
+  opacity: 0.1;
+}
+
+.menu-items li.active::before{
+  position:absolute;
+  content:'';
+  height:4.3rem;
+  border-left: 1px solid;
+  margin-top:-4rem;
+  margin-left:.6rem;
+  color: #4d565d;
+  opacity: 100;
 }
 
 .menu-items li{
@@ -60,7 +83,7 @@ img{
 }
 
 .menu-items li a{
-  padding: 16px 25px;
+  padding: 10px 10px;
   display: inline-block;
   font-size: 18px;
   line-height: 1.2em;
@@ -68,23 +91,72 @@ img{
   letter-spacing: 0.05px;
 
 }
-
 .menu-items .active{
   color: #4d565d;
 }
 
-//
-///*menu footer*/
-///* Style for "menu" */
-//width: 450px;
-//height: 69px;
-//
-///* Style for "Rectangle" */
-//width: 1px;
-//height: 65px;
-//background-color: #57666f;
-//
-///* Style for "Rectangle" */
-//width: 417px;
-//height: 2px;
-//background-color: #af9a63;
+.menu-items .menu-icon a{
+  background-repeat: no-repeat;
+  padding: 0;
+  width: 70px;
+  height: 13px;
+}
+
+.menu-line{
+  background-image: url('../img/menu line.svg');
+
+}
+/*top section*/
+.top-section{
+  background-image: url('../img/top-bg.png');
+  background-size: cover;
+  height:1000px;
+  width: auto;
+}
+
+/*welcome-section*/
+.welcome-section{
+  background-image: url('../img/welcome bg grey.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:1000px;
+  width: auto;
+  position:relative;
+
+}
+
+
+
+/*news-section*/
+.news-section {
+  background-image: url('../img/news bg.png');
+  background-size: cover;
+  height: 800px;
+  width: auto;
+  margin-top: -300px;
+}
+
+/*page footer*/
+
+.page-footer .links{
+  background-color:#455560;
+  color: #54626c;
+}
+
+.site-footer__bottom {
+  background-color: #2d3439;
+  color: #575d61;
+}
+
+
+.site-footer__bottom .container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-footer__bottom .contact{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}

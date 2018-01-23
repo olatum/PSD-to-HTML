@@ -20,20 +20,19 @@
 
         <nav>
             <ul class="menu-items">
-                <li><a href="#" class="active">HOME</a></li>
-                <li><a href="#">PRODUKTY</a></li>
-                <li><a href="#">O FIRMIE</a></li>
-                <li><a href="#">AKTUALNOŚCI</a></li>
-                <li><a href="#">MEDIA</a></li>
-                <li><a href="#">ZNAJDŹ KLINIKĘ</a></li>
-                <li><a href="#">KONTAKT</a></li>
-                <li><a href="#">SZUKAJ</a></li>
+                <li class="menu active"><a href="#" class="active">HOME</a></li>
+                <li class="menu"><a href="#">PRODUKTY</a></li>
+                <li class="menu"><a href="#">O FIRMIE</a></li>
+                <li class="menu"><a href="#">AKTUALNOŚCI</a></li>
+                <li class="menu"><a href="#">MEDIA</a></li>
+                <li class="menu"><a href="#">ZNAJDŹ KLINIKĘ</a></li>
+                <li class="menu"><a href="#">KONTAKT</a></li>
+                <li class="menu"><a href="#">SZUKAJ</a></li>
+                <li class="menu-icon">
+                    <a href="#" class="menu-line"></a>
+                </li>
             </ul>
         </nav>
-
-            <div class="site-header__menu-icon">
-                <div class="site-header__menu-icon__middle"></div>
-            </div>
         </div>
     </header>
 
@@ -56,6 +55,7 @@
     </section >
 
     <section class="page-section welcome-section">
+        <div class="container">
 
         <div>
             <h2>Witamy na stronie</h2>
@@ -69,10 +69,12 @@
                 <img src="assets/images/arrow_double.png" alt="Double arrow">
             </a>
         </div>
+        </div>
 
     </section>
 
     <section class="page-section news-section">
+        <div class="container">
 
         <div>
             <h2>Aktualności</h2>
@@ -97,50 +99,52 @@
                 <img src="assets/images/arrow_right.png" alt="Right arrow">
             </a>
         </div>
+        </div>
     </section>
 
     <footer class="page-footer">
 
-        <div class="links">
+
+        <section class="links">
+            <div class="container">
             <ul>
                 <li><a href="#">Strona główna</a></li>
                 <li><a href="#">Produkty</a></li>
                 <li><a href="#">Media</a></li>
             </ul>
-        </div>
-        <div class="links">
             <ul>
                 <li><a href="#">O firmie</a></li>
                 <li><a href="#">Znajdź klinikę</a></li>
                 <li><a href="#">Aktualności</a></li>
             </ul>
-        </div>
-        <div class="links">
             <ul>
                 <li><a href="#">Kontakt</a></li>
                 <li><a href="#">General</a></li>
                 <li><a href="#">Serwis</a></li>
             </ul>
-        </div>
 
-        <div>
             <form class="subscribe-form" action="" method="post">
                 <label>Newsletter:</label>
                 <input type="email" name="email" placeholder="Your email adress" required>
                 <button type="submit">Zapisz się >></button>
             </form>
-        </div>
+            </div>
+            </section>
 
-        <div class="site-footer__bottom">
-            <img src="assets/images/logo_footer.png" alt="logo">
-            <p>NETKATA S.C. ul. Nowy Świat 5/11, 00-492 Warszawa,
-                <a href="tel:+48505034253">tel. +48 505 034 253</a>
-                , e-mail:
-                <a href="mailto:info@netkata.com">info@netkata.com</a></p>
-        </div>
-        <div>
-            <p class="copy">Copyright by &copy; NETKATA 2016</p>
-        </div>
+        <section class="site-footer__bottom">
+            <div class="container">
+                <div class="contact">
+                    <img src="img/logo-footer.png" alt="logo">
+                    <p>NETKATA S.C. ul. Nowy Świat 5/11, 00-492 Warszawa,
+                    <a href="tel:+48505034253">tel. +48 505 034 253</a>, e-mail:
+                    <a href="mailto:info@netkata.com">info@netkata.com</a></p>
+                </div>
+                 <div class="copyright">
+                    <p class="copy">Copyright by &copy; NETKATA 2016</p>
+                 </div>
+            </div>
+        </section>
+
 
     </footer>
 
