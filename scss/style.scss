@@ -1,12 +1,9 @@
 body {
   font: 300 16px /1.5em 'Lato', sans-serif;
-  //color:#ffffff;
 }
-
 
 /*links*/
 a {
-  //color:#4d565d; /*active*/
   color: #a29061;
   text-decoration: none;
 }
@@ -72,14 +69,13 @@ img{
   margin-top:-4rem;
   margin-left:.6rem;
   color: #4d565d;
-  opacity: 100;
+  opacity: 1;
 }
 
 .menu-items li{
   margin: 0 4px;
   display: inline-block;
   list-style: none;
-
 }
 
 .menu-items li a{
@@ -89,8 +85,8 @@ img{
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: 0.05px;
-
 }
+
 .menu-items .active{
   color: #4d565d;
 }
@@ -106,12 +102,56 @@ img{
   background-image: url('../img/menu line.svg');
 
 }
-/*top section*/
+/*Top Section*/
 .top-section{
   background-image: url('../img/top-bg.png');
   background-size: cover;
-  height:1000px;
+  height:1150px;
   width: auto;
+}
+
+.section-header {
+  color: #af9a63;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 2.5em;
+}
+
+.section-header .active{
+  border-bottom: 2px solid;
+  color: #af9a63;
+  width:417px;
+}
+
+.section-header .passive{
+  opacity: 0.5;
+}
+
+.top-section-title{
+  text-transform: uppercase;
+  margin-top: -100px;
+  margin-left: 75px;
+}
+
+.top-section-title h1{
+  color: #455560;
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1.4em;
+  z-index:10;
+}
+
+.top-section-title h2 {
+  color: #a29061;
+  font-size: 3.75em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.arrow{
+  margin-top:350px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*welcome-section*/
@@ -122,10 +162,46 @@ img{
   height:1000px;
   width: auto;
   position:relative;
-
+  color:#ffffff;
 }
 
+.welcome-section .container{
+  display:flex;
+}
 
+.welcome-section .content{
+  margin-top: 150px;
+  width: 45%;
+}
+
+.content h2{
+  font-size: 3.75em;
+  text-transform:uppercase;
+  font-weight: 300;
+}
+
+.content h4{
+  font-size: 2.5em;
+  text-transform:uppercase;
+  font-weight: 300;
+  color: #a29061;
+}
+
+.content p {
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+}
+
+button{
+  width: 219px;
+  height: 219px;
+  background-color: transparent;
+  border: none;
+  position:relative;
+  margin-top:690px;
+  margin-right:100px;
+}
 
 /*news-section*/
 .news-section {
