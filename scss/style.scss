@@ -278,17 +278,84 @@ img{
 }
 
 /*page footer*/
-
 .page-footer .links{
   background-color:#455560;
-  color: #54626c;
+}
+
+.links .container {
+  display:flex;
+  padding: 50px 0;
+  box-sizing: border-box;
+
+}
+
+.menu-footer{
+  list-style: none;
+  display: inline-block;
+
+}
+
+.menu-footer a{
+  color: #7c888f;
+  text-transform: uppercase;
+}
+
+.line-separator{
+  height:65px;
+  width:1.1px;
+  background:#57666f;
+  border-bottom:1px solid #57666f;
+}
+
+.page-footer-form{
+  margin-left: 30%;
+  margin-top:3%;
+  display: flex;
+
+}
+
+.page-footer-form .text{
+  font: 300 16px /1.5em 'Lato', sans-serif;
+  color: #57666f;
+  font-size: 2em;
+  text-transform: uppercase;
+  padding: 0 50px;
+  margin-top: 15px;
+}
+
+.buttons{
+  display: flex;
+}
+
+.buttons input{
+  font: 300 16px /1.5em 'Lato', sans-serif;
+  color: #57666f;
+  font-size: 1.5em;
+}
+.button_email {
+  height:65px;
+  width: 296px;
+  border: 1px solid #2d3439;
+  background-color: #455560;
+  box-sizing: border-box;
+}
+
+.button_subscribe{
+  height:65px;
+  width: 244px;
+  background-color: #2d3439;
+  color:#ffffff;
+  font-size:1.5em;
+  text-transform: uppercase;
+  margin-left: -20px;
+  border: 2px solid #2d3439;
+  box-sizing: border-box;
 }
 
 .site-footer__bottom {
   background-color: #2d3439;
   color: #575d61;
 }
-
 
 .site-footer__bottom .container{
   display:flex;
@@ -301,6 +368,17 @@ img{
   justify-content: space-between;
   align-items: center;
 }
+
+.contact a{
+  color: #575d61;
+}
+
+.contact img{
+  margin-right:20px;
+}
+
+
+
 
 
 
