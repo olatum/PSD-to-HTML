@@ -1,0 +1,52 @@
+
+/*Top Section*/
+.top-section{
+  background-image: url('../img/top-bg.png');
+  background-size: cover;
+  height:1150px;
+  width: auto;
+}
+
+.section-header {
+  color: #af9a63;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 2.5em;
+}
+
+.section-header .active{
+  border-bottom: 2px solid;
+  color: #af9a63;
+  width:417px;
+}
+
+.section-header .passive{
+  opacity: 0.5;
+}
+
+.top-section-title{
+  text-transform: uppercase;
+  margin-top: -100px;
+  margin-left: 75px;
+}
+
+.top-section-title h1{
+  color: #455560;
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1.4em;
+  z-index:10;
+}
+
+.top-section-title h2 {
+  color: #a29061;
+  font-size: 3.75em;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+
+.arrow{
+  margin-top:350px;
+  display: flex;
+  justify-content: flex-end;
+}
